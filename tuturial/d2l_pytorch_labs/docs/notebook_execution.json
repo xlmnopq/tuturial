@@ -1,0 +1,47 @@
+[
+  {
+    "notebook": "00_environment.ipynb",
+    "executed_code_cells": 3,
+    "status": "passed"
+  },
+  {
+    "notebook": "01_cifar10_pipeline.ipynb",
+    "executed_code_cells": 8,
+    "status": "passed"
+  },
+  {
+    "notebook": "02_alexnet.ipynb",
+    "executed_code_cells": 8,
+    "status": "passed"
+  },
+  {
+    "notebook": "03_vgg11.ipynb",
+    "executed_code_cells": 8,
+    "status": "passed"
+  },
+  {
+    "notebook": "04_resnet18.ipynb",
+    "executed_code_cells": 8,
+    "status": "passed"
+  },
+  {
+    "notebook": "05_imdb_bilstm.ipynb",
+    "executed_code_cells": 8,
+    "status": "passed"
+  },
+  {
+    "notebook": "06_imdb_textcnn.ipynb",
+    "executed_code_cells": 8,
+    "status": "passed"
+  },
+  {
+    "notebook": "07_cifar10_vae.ipynb",
+    "executed_code_cells": 7,
+    "status": "passed"
+  },
+  {
+    "notebook": "08_cifar10_gan.ipynb",
+    "executed_code_cells": 6,
+    "status": "passed"
+  }
+]

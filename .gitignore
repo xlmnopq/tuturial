@@ -1,0 +1,36 @@
+# ---- DSH 沙箱 ACL 备份（工具生成，非项目内容）----
+/.acl-recovery/
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+*.egg-info/
+.pytest_cache/
+
+# ---- 模型权重 / 训练输出 ----
+*.pth
+*.pt
+*.ckpt
+*.onnx
+*.safetensors
+runs/
+wandb/
+lightning_logs/
+
+# ---- vae_gan_build：PPT 构建中间产物（由 build.mjs 生成，可重建）----
+tuturial/vae_gan_build/authored.json
+tuturial/vae_gan_build/template.json
+tuturial/vae_gan_build/validation.json
+tuturial/vae_gan_build/*.layout.json
+tuturial/vae_gan_build/*.inspect.ndjson
+tuturial/vae_gan_build/template-inspect.ndjson
+tuturial/vae_gan_build/slide-*.png
+tuturial/vae_gan_build/source-*
+tuturial/vae_gan_build/candidate*.pptx
+tuturial/vae_gan_build/final-render/
+
+# ---- 交付产物（二进制，大文件不进仓库）----
+tuturial/output/

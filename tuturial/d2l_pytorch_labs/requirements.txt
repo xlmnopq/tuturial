@@ -1,0 +1,7 @@
+# 请先按 README 安装匹配 GPU 的 torch / torchvision，再安装这些课程依赖。
+numpy>=1.23,<3
+matplotlib>=3.5,<4
+Pillow>=9,<13
+requests>=2.31,<3
+jupyterlab>=4,<5
+ipykernel>=6,<8
