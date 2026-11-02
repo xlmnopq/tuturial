@@ -12,6 +12,8 @@
 
 `cnn_quickstart` 与 `d2l_pytorch_labs` 是配套关系，不是替代关系：前者是入门最小集（一个 CNN 从建到训），后者是正式实验项目。
 
+环境、工具链与三处同步的完整配置步骤见 [`docs/环境配置与同步手册.md`](docs/环境配置与同步手册.md)。
+
 ## 环境
 
 - **本地**：Windows + Git 2.56（`D:\APPstore\Git`）+ VS Code（GitLens）；显卡 GTX 1060 3GB，显存小，batch size 建议 ≤ 64。
