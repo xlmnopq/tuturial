@@ -10,6 +10,10 @@ venv/
 *.egg-info/
 .pytest_cache/
 
+# ---- 运行日志 ----
+*.log
+smoke_all.log
+
 # ---- 模型权重 / 训练输出 ----
 *.pth
 *.pt
