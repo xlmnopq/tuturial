@@ -1,5 +1,8 @@
 .venv/
-data/
+# 数据集本体不进仓库，但固定 seed 的划分要进（保证换机器结果一致）
+data/*
+!data/splits/
+!data/splits/**
 runs/
 __pycache__/
 .pytest_cache/
